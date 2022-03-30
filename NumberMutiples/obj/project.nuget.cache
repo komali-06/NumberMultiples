@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZiX0tx6GBWLcSCu+cOuDfei5z6uFBAJ8Y4RQ2pmGiZji2mTh2hCgYBJw7Vd2kohmajpE7Z+BvldkHKXQLYNmWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Downloads\\NumberMutiples\\NumberMutiples\\NumberMutiples\\NumberMutiples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
