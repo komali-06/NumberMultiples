@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "3a5fb46d-f3ca-4838-9f53-a69970325ce5",
+		"name": "NumberMultiples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "3MultiplePositive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"15\");\r",
+							"  pm.expect(responseJson.output).to.eql(\"GN\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/15",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3MultipleNegetive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"6\");\r",
+							"  pm.expect(responseJson.output).to.not.eql(\"T\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5MultiplePositive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"10\");\r",
+							"  pm.expect(responseJson.output).to.eql(\"N\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5MultipleNagetive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"10\");\r",
+							"  pm.expect(responseJson.output).to.not.eql(\"G\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3&5MultiplePositive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"15\");\r",
+							"  pm.expect(responseJson.output).to.eql(\"GN\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/15",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3&5MultipleNegetive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {\r",
+							" // pm.expect(pm.response.code).to.eql(200);\r",
+							"  const responseJson = pm.response.json();\r",
+							"  pm.expect(responseJson.input).to.eql(\"30\");\r",
+							"  pm.expect(responseJson.output).to.not.eql(\"N\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/NumbersMutiples/get/30",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"NumbersMutiples",
+						"get",
+						"30"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
